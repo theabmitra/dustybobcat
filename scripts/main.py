@@ -8,7 +8,7 @@ def hello():
 if __name__ == "__main__":
     hello()
 '''
-from BeautifulSoup import BeautifulSoup
+from bs4 import BeautifulSoup
 import sys
 import urllib2
 import re
