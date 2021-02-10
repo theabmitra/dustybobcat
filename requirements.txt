@@ -1,2 +1,2 @@
 requests==2.23.0
-beautifulsoup=4.9.3
+beautifulsoup==4.9.3
