@@ -28,7 +28,7 @@ raw_string = re.compile(r' ')
 searchstring = raw_string.sub('+', title)
 
 #Prints the search string
-print searchstring
+print(searchstring)
 
 #The actual query
 url = "http://www.imdbapi.com/?t=" + searchstring + "&y="+year
@@ -37,6 +37,6 @@ request = urllib2.Request(url)
 
 response = json.load(urllib2.urlopen(request))
 
-print json.dumps(response,indent=2)
+print(json.dumps(response,indent=2))
 
 #if __name__ == "__main__":
